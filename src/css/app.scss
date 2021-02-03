@@ -1,0 +1,16 @@
+// app global css in SCSS form
+body.desktop .q-focusable:focus .q-focus-helper,
+body.desktop .q-hoverable:hover .q-focus-helper {
+  background: inherit;
+  opacity: 0;
+}
+
+body.ios .q-hoverable:active .q-focus-helper {
+  background: inherit;
+  opacity: 0;
+}
+
+.q-focus-helper {
+  opacity: 0;
+  transition: unset;
+}
